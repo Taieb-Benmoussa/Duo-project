@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Roll The Dice </title>
+    <link rel="stylesheet" href="paire_project.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+        integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1 id="hello"> Welcome to the dice roller game</h1>
+
+    <div class="button">
+        <div class="search">
+            <input type="number" class="searchTerm" placeholder="Pick a number from 1 to 6 " id="numero">
+            <button type="span" class="searchButton" onclick="play()">
+                <span style='font-size:20px;top: 3px;'>🔍</span>
+            </button>
+        </div>
+    </div>
+
+        <div class="wrapper four">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+            </style>
+            <div class="type">
+                <h2 id="text"> It's all about luck</h2>
+            </div>
+            <div class="grid-container" id="container"></div>
+
+        </div>
+        <!-- img section-->
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img class="img" src="./Image_projet/dice1.jpg" >
+            </div>
+
+            <div class="mySlides fade">
+                <img class="img" src="./Image_projet/dice2.jpg" >
+            </div>
+
+            <div class="mySlides fade">
+                <img class="img" src="./Image_projet/dice3.jpg" >
+            </div>
+            <div class="mySlides fade">
+                <img class="img" src="./Image_projet/dice4.jpg" >
+            </div>
+
+            <div class="mySlides fade">
+                <img class="img" src="./Image_projet/dice5.jpg" >
+            </div>
+
+            <div class="mySlides fade">
+                <img class="img" src="./Image_projet/dice6.jpg" >
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <!-- end img section-->
+        <script src="paire_project.js"></script>
+    </body>
+
+</html>
